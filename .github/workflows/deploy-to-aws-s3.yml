@@ -20,7 +20,7 @@ jobs:
           aws-region: eu-central-1
 
       - name: Deploy to S3
-        uses: aws-actions/s3-sync@v2
+        uses: aws-actions/s3-sync@master
         with:
           args: --delete --exact-timestamps
           aws-region: eu-central-1
