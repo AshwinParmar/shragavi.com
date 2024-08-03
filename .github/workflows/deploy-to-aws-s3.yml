@@ -24,6 +24,6 @@ jobs:
         with:
           args: --delete --exact-timestamps
           aws-region: eu-central-1
-          bucket: www.shragavi.com
+          bucket: shragavi.com
           source: .
         
